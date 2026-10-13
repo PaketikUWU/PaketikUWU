@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=600&size=24&duration=2800&pause=900&color=FF7A1A&center=true&vCenter=true&width=620&height=40&lines=Python%20%E2%80%94%20%D0%BC%D0%BE%D0%B9%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA;%D0%A3%D1%87%D1%83%20Java%20%D1%88%D0%B0%D0%B3%20%D0%B7%D0%B0%20%D1%88%D0%B0%D0%B3%D0%BE%D0%BC;%D0%94%D0%B5%D0%BB%D0%B0%D1%8E%20%D0%BC%D0%BE%D0%B4%D1%8B%20%D0%B8%20%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20Minecraft;%D0%A1%D0%B5%D0%B9%D1%87%D0%B0%D1%81%20%D0%B2%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%3A%20Fins%20Fish" alt="Python, Java, моды и плагины для Minecraft">
 
-<img src="https://komarev.com/ghpvc/?username=PaketikUWU&label=%D0%9F%D0%B8%D0%BB%D0%BE%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%B1%D0%BE%D1%80%D1%82%D1%83&color=E11D34&style=flat-square" alt="Посетители">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=PaketikUWU.PaketikUWU&left_color=%230B0B0D&right_color=%23E11D34&left_text=%D0%9F%D0%B8%D0%BB%D0%BE%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%B1%D0%BE%D1%80%D1%82%D1%83" alt="Посетители">
 
 </div>
 
