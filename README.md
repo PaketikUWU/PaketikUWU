@@ -24,6 +24,28 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
+### 📊 Sync rate
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=PaketikUWU&show_icons=true&hide_rank=true&count_private=true&bg_color=0B0B0D&title_color=FF7A1A&icon_color=E11D34&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PaketikUWU&layout=compact&bg_color=0B0B0D&title_color=FF7A1A&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="Top languages">
+
+<img src="https://streak-stats.demolab.com?user=PaketikUWU&background=0B0B0D&border=E11D34&stroke=E11D34&ring=FF7A1A&fire=FF7A1A&currStreakNum=F2E6D8&sideNums=F2E6D8&currStreakLabel=FF7A1A&sideLabels=FF7A1A&dates=C9BCAE&border_radius=6" alt="Commit streak">
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake.svg" alt="Snake eating my contributions" width="100%">
+</picture>
+
+<sub>🐍 just a snake munching on my commits</sub>
+
+</div>
+
+<img src="./assets/divider.svg" alt="" width="100%">
+
 ### 🧰 Toolkit
 
 <div align="center">
@@ -82,38 +104,5 @@ and every now and then a creeper ruins the trip.
 
 </details>
 <!--MINE:END-->
-
-<img src="./assets/divider.svg" alt="" width="100%">
-
-### 📦 Other stuff
-
-<div align="center">
-
-<a href="https://github.com/PaketikUWU/faceit-twitch-bot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PaketikUWU&repo=faceit-twitch-bot&bg_color=0B0B0D&title_color=FF7A1A&icon_color=E11D34&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="faceit-twitch-bot"></a>
-<a href="https://github.com/PaketikUWU/faceit-twitch-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PaketikUWU&repo=faceit-twitch-api&bg_color=0B0B0D&title_color=FF7A1A&icon_color=E11D34&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="faceit-twitch-api"></a>
-
-</div>
-
-<img src="./assets/divider.svg" alt="" width="100%">
-
-### 📊 Sync rate
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=PaketikUWU&show_icons=true&hide_rank=true&count_private=true&bg_color=0B0B0D&title_color=FF7A1A&icon_color=E11D34&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="GitHub stats">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PaketikUWU&layout=compact&bg_color=0B0B0D&title_color=FF7A1A&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="Top languages">
-
-<img src="https://streak-stats.demolab.com?user=PaketikUWU&background=0B0B0D&border=E11D34&stroke=E11D34&ring=FF7A1A&fire=FF7A1A&currStreakNum=F2E6D8&sideNums=F2E6D8&currStreakLabel=FF7A1A&sideLabels=FF7A1A&dates=C9BCAE&border_radius=6" alt="Commit streak">
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake.svg" alt="Snake eating my contributions" width="100%">
-</picture>
-
-<sub>🐍 just a snake munching on my commits</sub>
-
-</div>
 
 <img src="./assets/footer-water.svg" alt="" width="100%">
