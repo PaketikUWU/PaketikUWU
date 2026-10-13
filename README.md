@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=600&size=24&duration=2800&pause=900&color=FF7A1A&center=true&vCenter=true&width=620&height=40&lines=Python's%20my%20main%20thing;Picking%20up%20Java%20right%20now;Learning%20to%20mod%20Minecraft;Now%20building%3A%20Fins%20Fish" alt="Python, Java and Minecraft modding">
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=PaketikUWU.PaketikUWU&left_color=%230B0B0D&right_color=%23E11D34&left_text=pilots%20on%20board" alt="Visitors">
+<img src="https://hits.sh/github.com/PaketikUWU.svg?label=pilots%20on%20board&color=E11D34&labelColor=0B0B0D&style=flat-square" alt="Visitors">
 
 </div>
 
