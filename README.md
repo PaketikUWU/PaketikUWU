@@ -2,63 +2,25 @@
 
 <img src="./assets/banner.svg" alt="Paket — Python, Java, Minecraft mods" width="100%">
 
-<img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=600&size=24&duration=2800&pause=900&color=FF7A1A&center=true&vCenter=true&width=620&height=40&lines=Python%20is%20my%20main%20language;Starting%20to%20learn%20Java;Learning%20Minecraft%20mod%20%26%20plugin%20dev;Currently%20working%20on%3A%20Fins%20Fish" alt="Python, Java, learning Minecraft mod and plugin development">
+<img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=600&size=24&duration=2800&pause=900&color=FF7A1A&center=true&vCenter=true&width=620&height=40&lines=Python's%20my%20main%20thing;Picking%20up%20Java%20right%20now;Learning%20to%20mod%20Minecraft;Now%20building%3A%20Fins%20Fish" alt="Python, Java and Minecraft modding">
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=PaketikUWU.PaketikUWU&left_color=%230B0B0D&right_color=%23E11D34&left_text=pilots%20on%20board" alt="Visitors">
 
 </div>
 
-### 👋 Hi! I'm Paket
+### 👋 Hey, I'm Paket
 
-- 🐍 **Python** is my main language
-- ☕ Starting to learn **Java**
-- ⛏️ Learning to develop Minecraft **mods and plugins**
-- 🎣 Working on **Fins Fish**, a fishing mod for Fabric
-- 🤖 Built bots for Twitch and FACEIT
+- 🐍 Python's my main thing
+- ☕ Picking up Java right now
+- ⛏️ Learning to make Minecraft mods & plugins
+- 🤖 Made a couple of Twitch / FACEIT bots
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 🎣 Fins Fish — my first mod
+### 🎣 Fins Fish
 
-> Fishing in Minecraft the way it should be: a reeling minigame, real fishing line physics,
-> rods, hooks and bobbers, fishermen NPCs with a shop and fish coins.
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**✅ Done**
-
-- [x] Reeling minigame (easy and hard mode)
-- [x] Rope-physics fishing line that floats on water
-- [x] Rods, 7 fishing lines, 6 hooks, 5 bobbers
-- [x] Fisherman's workbench
-- [x] Fishermen NPCs, shop and fish coins
-- [x] Fisherman houses by the sea and rivers
-
-</td>
-<td valign="top" width="50%">
-
-**🛠️ Planned**
-
-- [ ] Bait and groundbait
-- [ ] Rod upgrades and new rods
-- [ ] Unique fish for every biome
-- [ ] Legendary fish with special conditions
-- [ ] NeoForge port
-- [ ] Support up to 26.x
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-![Status](https://img.shields.io/badge/status-in_development-FF7A1A?style=flat-square&labelColor=0B0B0D)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-E11D34?style=flat-square&labelColor=0B0B0D)
-![Loader](https://img.shields.io/badge/loader-Fabric-F2E6D8?style=flat-square&labelColor=0B0B0D)
-
-</div>
+My first Minecraft mod, still in the works. It makes fishing actually fun: you reel fish in
+with a little minigame, gear up with rods, hooks and bobbers, and sell your catch to fishermen.
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
@@ -100,9 +62,8 @@ print(total)  # no 10-million-element list
 
 ### ⛏️ Mine of the day
 
-Every morning a GitHub Action goes down the mine to a random depth. Ores depend on the Y level,
-just like real world generation: diamonds and redstone deep down, coal and emeralds up high.
-Sometimes the trip ends up in the Nether hunting for ancient debris, and sometimes a creeper shows up.
+Every day a bot goes mining at a random depth. Deeper means diamonds, higher means coal,
+and every now and then a creeper ruins the trip.
 
 <!--MINE:START-->
 > ⛏️ **Trip of Oct 14, 2026:** ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26**
@@ -124,7 +85,7 @@ Sometimes the trip ends up in the Nether hunting for ancient debris, and sometim
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 📦 Other projects
+### 📦 Other stuff
 
 <div align="center">
 
@@ -151,7 +112,7 @@ Sometimes the trip ends up in the Nether hunting for ancient debris, and sometim
   <img src="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake.svg" alt="Snake eating my contributions" width="100%">
 </picture>
 
-<sub>🐍 A snake eating my commits</sub>
+<sub>🐍 just a snake munching on my commits</sub>
 
 </div>
 
