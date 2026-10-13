@@ -2,9 +2,9 @@
   "trips": 1,
   "accidents": 0,
   "inventory": {
-    "Золото": 3,
-    "Редстоун": 5,
-    "Железо": 2
+    "Gold": 3,
+    "Redstone": 5,
+    "Iron": 2
   },
   "record": {
     "date": "2026-10-14",
@@ -12,9 +12,9 @@
       "dim": "overworld",
       "y": -49,
       "ores": {
-        "Золото": 3,
-        "Редстоун": 5,
-        "Железо": 2
+        "Gold": 3,
+        "Redstone": 5,
+        "Iron": 2
       },
       "value": 26
     }
@@ -26,9 +26,9 @@
         "dim": "overworld",
         "y": -49,
         "ores": {
-          "Золото": 3,
-          "Редстоун": 5,
-          "Железо": 2
+          "Gold": 3,
+          "Redstone": 5,
+          "Iron": 2
         },
         "value": 26
       }

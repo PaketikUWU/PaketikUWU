@@ -2,51 +2,51 @@
 
 <img src="./assets/banner.svg" alt="Paket — Python, Java, Minecraft mods" width="100%">
 
-<img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=600&size=24&duration=2800&pause=900&color=FF7A1A&center=true&vCenter=true&width=620&height=40&lines=Python%20%E2%80%94%20%D0%BC%D0%BE%D0%B9%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA;%D0%A3%D1%87%D1%83%20Java%20%D1%88%D0%B0%D0%B3%20%D0%B7%D0%B0%20%D1%88%D0%B0%D0%B3%D0%BE%D0%BC;%D0%94%D0%B5%D0%BB%D0%B0%D1%8E%20%D0%BC%D0%BE%D0%B4%D1%8B%20%D0%B8%20%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20Minecraft;%D0%A1%D0%B5%D0%B9%D1%87%D0%B0%D1%81%20%D0%B2%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%3A%20Fins%20Fish" alt="Python, Java, моды и плагины для Minecraft">
+<img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=600&size=24&duration=2800&pause=900&color=FF7A1A&center=true&vCenter=true&width=620&height=40&lines=Python%20is%20my%20main%20language;Starting%20to%20learn%20Java;Learning%20Minecraft%20mod%20%26%20plugin%20dev;Currently%20working%20on%3A%20Fins%20Fish" alt="Python, Java, learning Minecraft mod and plugin development">
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=PaketikUWU.PaketikUWU&left_color=%230B0B0D&right_color=%23E11D34&left_text=%D0%9F%D0%B8%D0%BB%D0%BE%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%B1%D0%BE%D1%80%D1%82%D1%83" alt="Посетители">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=PaketikUWU.PaketikUWU&left_color=%230B0B0D&right_color=%23E11D34&left_text=pilots%20on%20board" alt="Visitors">
 
 </div>
 
-### 👋 Привет! Я Paket
+### 👋 Hi! I'm Paket
 
-- 🐍 **Python** — мой основной язык
-- ☕ Начинаю изучать **Java**
-- ⛏️ Начинающий создатель **модов и плагинов** для Minecraft
-- 🎣 Сейчас делаю **Fins Fish** — мод про рыбалку на Fabric
-- 🤖 Писал ботов для Twitch и FACEIT
+- 🐍 **Python** is my main language
+- ☕ Starting to learn **Java**
+- ⛏️ Learning to develop Minecraft **mods and plugins**
+- 🎣 Working on **Fins Fish**, a fishing mod for Fabric
+- 🤖 Built bots for Twitch and FACEIT
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 🎣 Fins Fish — мой первый мод
+### 🎣 Fins Fish — my first mod
 
-> Рыбалка в Minecraft, какой она должна быть: мини-игра вываживания, своя физика лески,
-> удочки, крючки и поплавки, рыбаки-NPC с магазином и рыбными монетами.
+> Fishing in Minecraft the way it should be: a reeling minigame, real fishing line physics,
+> rods, hooks and bobbers, fishermen NPCs with a shop and fish coins.
 
 <table>
 <tr>
 <td valign="top" width="50%">
 
-**✅ Уже готово**
+**✅ Done**
 
-- [x] Мини-игра вываживания (лёгкий и сложный режим)
-- [x] Леска-верёвка из 32 звеньев, ложится на воду
-- [x] Удочки, 7 видов лески, 6 крючков, 5 поплавков
-- [x] Верстак рыбака
-- [x] Рыбаки-NPC, магазин и рыбные монеты
-- [x] Домики рыбаков у моря и реки
+- [x] Reeling minigame (easy and hard mode)
+- [x] Rope-physics fishing line that floats on water
+- [x] Rods, 7 fishing lines, 6 hooks, 5 bobbers
+- [x] Fisherman's workbench
+- [x] Fishermen NPCs, shop and fish coins
+- [x] Fisherman houses by the sea and rivers
 
 </td>
 <td valign="top" width="50%">
 
-**🛠️ В планах**
+**🛠️ Planned**
 
-- [ ] Наживка и прикормка
-- [ ] Улучшения удочек и новые удочки
-- [ ] Своя рыба в каждом биоме
-- [ ] Легендарная рыба с особыми условиями
-- [ ] Порт на NeoForge
-- [ ] Версии вплоть до 26.x
+- [ ] Bait and groundbait
+- [ ] Rod upgrades and new rods
+- [ ] Unique fish for every biome
+- [ ] Legendary fish with special conditions
+- [ ] NeoForge port
+- [ ] Support up to 26.x
 
 </td>
 </tr>
@@ -54,15 +54,15 @@
 
 <div align="center">
 
-![Статус](https://img.shields.io/badge/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%B2_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5-FF7A1A?style=flat-square&labelColor=0B0B0D)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-D42A2A?style=flat-square&labelColor=0B0B0D)
+![Status](https://img.shields.io/badge/status-in_development-FF7A1A?style=flat-square&labelColor=0B0B0D)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-E11D34?style=flat-square&labelColor=0B0B0D)
 ![Loader](https://img.shields.io/badge/loader-Fabric-F2E6D8?style=flat-square&labelColor=0B0B0D)
 
 </div>
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 🧰 Снаряжение
+### 🧰 Toolkit
 
 <div align="center">
 
@@ -81,50 +81,50 @@
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 📚 Факт дня
+### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Генераторы экономят память**
+**🐍 Python · Generators save memory**
 
-Генераторное выражение не строит список целиком, а выдаёт элементы по одному.
+A generator expression doesn't build the whole list — it yields items one by one.
 
 ```python
 total = sum(x * x for x in range(10_000_000))
-print(total)  # без списка на 10 млн элементов
+print(total)  # no 10-million-element list
 ```
 
-<sub>14.10.2026 · показано 1 из 60 · завтра — Java</sub>
+<sub>Oct 14, 2026 · 1 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### ⛏️ Шахта дня
+### ⛏️ Mine of the day
 
-Каждое утро GitHub Action спускается в шахту на случайную глубину. Руда зависит от высоты Y,
-как в настоящей генерации мира: алмазы и редстоун глубоко, уголь и изумруды наверху.
-Иногда заносит в Незер за древними обломками, а иногда встречается крипер.
+Every morning a GitHub Action goes down the mine to a random depth. Ores depend on the Y level,
+just like real world generation: diamonds and redstone deep down, coal and emeralds up high.
+Sometimes the trip ends up in the Nether hunting for ancient debris, and sometimes a creeper shows up.
 
 <!--MINE:START-->
-> ⛏️ **Вылазка 14.10.2026:** ⛰️ Верхний мир, Y=-49: 🔴 Редстоун ×5, 🟡 Золото ×3, ⚪ Железо ×2 · ценность **26**
+> ⛏️ **Trip of Oct 14, 2026:** ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26**
 >
-> 🏆 **Рекорд:** ⛰️ Верхний мир, Y=-49: 🔴 Редстоун ×5, 🟡 Золото ×3, ⚪ Железо ×2 · ценность **26** (14.10.2026)
+> 🏆 **Record:** ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26** (Oct 14, 2026)
 >
-> 🎒 **Инвентарь:** 🔴 5 · 🟡 3 · ⚪ 2
+> 🎒 **Inventory:** 🔴 5 · 🟡 3 · ⚪ 2
 >
-> 🗺️ Вылазок: **1** · ☠️ Неудач: **0**
+> 🗺️ Trips: **1** · ☠️ Failures: **0**
 
-<details><summary>Журнал шахтёра</summary>
+<details><summary>Miner's log</summary>
 
-| Дата | Вылазка |
+| Date | Trip |
 |---|---|
-| 14.10.2026 | ⛰️ Верхний мир, Y=-49: 🔴 Редстоун ×5, 🟡 Золото ×3, ⚪ Железо ×2 · ценность **26** |
+| Oct 14, 2026 | ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26** |
 
 </details>
 <!--MINE:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 📦 Другие проекты
+### 📦 Other projects
 
 <div align="center">
 
@@ -135,23 +135,23 @@ print(total)  # без списка на 10 млн элементов
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### 📊 Синхронизация
+### 📊 Sync rate
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=PaketikUWU&show_icons=true&hide_rank=true&count_private=true&locale=ru&bg_color=0B0B0D&title_color=FF7A1A&icon_color=E11D34&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="Статистика GitHub">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PaketikUWU&layout=compact&locale=ru&bg_color=0B0B0D&title_color=FF7A1A&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="Языки">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=PaketikUWU&show_icons=true&hide_rank=true&count_private=true&bg_color=0B0B0D&title_color=FF7A1A&icon_color=E11D34&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PaketikUWU&layout=compact&bg_color=0B0B0D&title_color=FF7A1A&text_color=F2E6D8&border_color=E11D34&border_radius=6" alt="Top languages">
 
-<img src="https://streak-stats.demolab.com?user=PaketikUWU&locale=ru&background=0B0B0D&border=E11D34&stroke=E11D34&ring=FF7A1A&fire=FF7A1A&currStreakNum=F2E6D8&sideNums=F2E6D8&currStreakLabel=FF7A1A&sideLabels=FF7A1A&dates=C9BCAE&border_radius=6" alt="Серия коммитов">
+<img src="https://streak-stats.demolab.com?user=PaketikUWU&background=0B0B0D&border=E11D34&stroke=E11D34&ring=FF7A1A&fire=FF7A1A&currStreakNum=F2E6D8&sideNums=F2E6D8&currStreakLabel=FF7A1A&sideLabels=FF7A1A&dates=C9BCAE&border_radius=6" alt="Commit streak">
 
 <br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake.svg" alt="Змейка ест мои коммиты" width="100%">
+  <img src="https://raw.githubusercontent.com/PaketikUWU/PaketikUWU/output/snake.svg" alt="Snake eating my contributions" width="100%">
 </picture>
 
-<sub>🐍 Змейка ест мои коммиты</sub>
+<sub>🐍 A snake eating my commits</sub>
 
 </div>
 

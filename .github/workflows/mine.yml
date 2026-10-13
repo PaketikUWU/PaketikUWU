@@ -1,4 +1,4 @@
-name: Шахта дня
+name: Mine of the day
 
 on:
   schedule:
@@ -14,13 +14,13 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Спуститься в шахту
+      - name: Go down the mine
         run: python3 .github/scripts/mine.py
-      - name: Сохранить добычу
+      - name: Save the loot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md mine/log.json
-          git diff --cached --quiet || git commit -m "⛏️ Шахта дня"
+          git diff --cached --quiet || git commit -m "⛏️ Mine of the day"
           git pull --rebase
           git push

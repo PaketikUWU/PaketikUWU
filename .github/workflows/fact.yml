@@ -1,4 +1,4 @@
-name: Факт дня
+name: Fact of the day
 
 on:
   schedule:
@@ -14,13 +14,13 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Выбрать факт
+      - name: Pick a fact
         run: python3 .github/scripts/fact.py
-      - name: Сохранить
+      - name: Save
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md facts/log.json
-          git diff --cached --quiet || git commit -m "📚 Факт дня"
+          git diff --cached --quiet || git commit -m "📚 Fact of the day"
           git pull --rebase
           git push

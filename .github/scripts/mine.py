@@ -12,24 +12,24 @@ LOG = os.path.join(ROOT, "mine", "log.json")
 
 # руда: значок, мин. Y, макс. Y, пик Y, шанс в пике, сколько выпадает, ценность за штуку
 OVERWORLD = {
-    "Уголь": ("⚫", 0, 128, 90, 100, (3, 12), 1),
-    "Медь": ("🟠", -16, 112, 48, 60, (4, 15), 1),
-    "Железо": ("⚪", -64, 72, 16, 70, (2, 8), 2),
-    "Лазурит": ("🔵", -64, 64, 0, 25, (4, 9), 2),
-    "Редстоун": ("🔴", -64, 15, -58, 35, (4, 10), 2),
-    "Золото": ("🟡", -64, 32, -16, 18, (1, 6), 4),
-    "Алмаз": ("💎", -64, 16, -59, 8, (1, 4), 10),
-    "Изумруд": ("🟢", -16, 128, 100, 3, (1, 2), 12),
+    "Coal": ("⚫", 0, 128, 90, 100, (3, 12), 1),
+    "Copper": ("🟠", -16, 112, 48, 60, (4, 15), 1),
+    "Iron": ("⚪", -64, 72, 16, 70, (2, 8), 2),
+    "Lapis": ("🔵", -64, 64, 0, 25, (4, 9), 2),
+    "Redstone": ("🔴", -64, 15, -58, 35, (4, 10), 2),
+    "Gold": ("🟡", -64, 32, -16, 18, (1, 6), 4),
+    "Diamond": ("💎", -64, 16, -59, 8, (1, 4), 10),
+    "Emerald": ("🟢", -16, 128, 100, 3, (1, 2), 12),
 }
 NETHER = {
-    "Кварц": ("🤍", 10, 117, 60, 100, (4, 12), 1),
-    "Золото Незера": ("🟡", 10, 117, 60, 60, (2, 8), 2),
-    "Древние обломки": ("🟤", 8, 22, 15, 6, (1, 2), 25),
+    "Quartz": ("🤍", 10, 117, 60, 100, (4, 12), 1),
+    "Nether Gold": ("🟡", 10, 117, 60, 60, (2, 8), 2),
+    "Ancient Debris": ("🟤", 8, 22, 15, 6, (1, 2), 25),
 }
 NETHER_CHANCE = 0.12
 ACCIDENTS = [  # (шанс, текст)
-    (0.07, "💥 Крипер подкрался сзади, вылазка сорвалась!"),
-    (0.04, "🔥 Упал в лаву, весь лут сгорел!"),
+    (0.07, "💥 A creeper sneaked up from behind, trip ruined!"),
+    (0.04, "🔥 Fell into lava, all the loot burned!"),
 ]
 ORE_ICONS = {name: data[0] for name, data in {**OVERWORLD, **NETHER}.items()}
 
@@ -62,15 +62,15 @@ def dig(rng):
 
 
 def fmt_date(iso):
-    return datetime.date.fromisoformat(iso).strftime("%d.%m.%Y")
+    return datetime.date.fromisoformat(iso).strftime("%b %d, %Y")
 
 
 def describe(t):
     if "accident" in t:
         return t["accident"]
-    place = "🔥 Незер" if t["dim"] == "nether" else "⛰️ Верхний мир"
+    place = "🔥 Nether" if t["dim"] == "nether" else "⛰️ Overworld"
     ores = ", ".join(f"{ORE_ICONS[n]} {n} ×{c}" for n, c in sorted(t["ores"].items(), key=lambda kv: -kv[1]))
-    return f"{place}, Y={t['y']}: {ores or 'пусто'} · ценность **{t['value']}**"
+    return f"{place}, Y={t['y']}: {ores or 'nothing'} · value **{t['value']}**"
 
 
 def main():
@@ -98,12 +98,12 @@ def main():
 
     last = log["history"][0]
     inv = " · ".join(f"{ORE_ICONS[n]} {c}" for n, c in sorted(log["inventory"].items(), key=lambda kv: -kv[1]))
-    lines = [f"> ⛏️ **Вылазка {fmt_date(last['date'])}:** {describe(last['trip'])}"]
+    lines = [f"> ⛏️ **Trip of {fmt_date(last['date'])}:** {describe(last['trip'])}"]
     if log["record"]:
-        lines += [">", f"> 🏆 **Рекорд:** {describe(log['record']['trip'])} ({fmt_date(log['record']['date'])})"]
-    lines += [">", f"> 🎒 **Инвентарь:** {inv or 'пусто'}",
-              ">", f"> 🗺️ Вылазок: **{log['trips']}** · ☠️ Неудач: **{log['accidents']}**",
-              "", "<details><summary>Журнал шахтёра</summary>", "", "| Дата | Вылазка |", "|---|---|"]
+        lines += [">", f"> 🏆 **Record:** {describe(log['record']['trip'])} ({fmt_date(log['record']['date'])})"]
+    lines += [">", f"> 🎒 **Inventory:** {inv or 'empty'}",
+              ">", f"> 🗺️ Trips: **{log['trips']}** · ☠️ Failures: **{log['accidents']}**",
+              "", "<details><summary>Miner's log</summary>", "", "| Date | Trip |", "|---|---|"]
     lines += [f"| {fmt_date(e['date'])} | {describe(e['trip'])} |" for e in log["history"]]
     lines += ["", "</details>"]
 

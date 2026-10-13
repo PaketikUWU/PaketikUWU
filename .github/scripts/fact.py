@@ -52,7 +52,7 @@ def main():
         fact["code"],
         "```",
         "",
-        f"<sub>{today.strftime('%d.%m.%Y')} · показано {seen} из {total} · завтра — "
+        f"<sub>{today.strftime('%b %d, %Y')} · {seen} of {total} shown · tomorrow: "
         f"{'Java' if lang == 'python' else 'Python'}</sub>",
     ])
 
