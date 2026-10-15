@@ -88,18 +88,19 @@ Every day a bot goes mining at a random depth. Deeper means diamonds, higher mea
 and every now and then a creeper ruins the trip.
 
 <!--MINE:START-->
-> ⛏️ **Trip of Oct 14, 2026:** ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26**
+> ⛏️ **Trip of Oct 15, 2026:** 💥 A creeper sneaked up from behind, trip ruined!
 >
 > 🏆 **Record:** ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26** (Oct 14, 2026)
 >
 > 🎒 **Inventory:** 🔴 5 · 🟡 3 · ⚪ 2
 >
-> 🗺️ Trips: **1** · ☠️ Failures: **0**
+> 🗺️ Trips: **2** · ☠️ Failures: **1**
 
 <details><summary>Miner's log</summary>
 
 | Date | Trip |
 |---|---|
+| Oct 15, 2026 | 💥 A creeper sneaked up from behind, trip ruined! |
 | Oct 14, 2026 | ⛰️ Overworld, Y=-49: 🔴 Redstone ×5, 🟡 Gold ×3, ⚪ Iron ×2 · value **26** |
 
 </details>
