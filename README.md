@@ -68,16 +68,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Generators save memory**
+**☕ Java · Remainder of negatives**
 
-A generator expression doesn't build the whole list — it yields items one by one.
+% in Java keeps the sign of the dividend. For a "math" remainder use Math.floorMod.
 
-```python
-total = sum(x * x for x in range(10_000_000))
-print(total)  # no 10-million-element list
+```java
+System.out.println(-7 % 3);              // -1
+System.out.println(Math.floorMod(-7, 3)); // 2
 ```
 
-<sub>Oct 14, 2026 · 1 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 15, 2026 · 2 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
