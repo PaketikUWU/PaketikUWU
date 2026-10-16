@@ -1,25 +1,37 @@
 {
-  "trips": 2,
+  "trips": 3,
   "accidents": 1,
   "inventory": {
     "Gold": 3,
     "Redstone": 5,
-    "Iron": 2
+    "Iron": 6,
+    "Copper": 21
   },
   "record": {
-    "date": "2026-10-14",
+    "date": "2026-10-16",
     "trip": {
       "dim": "overworld",
-      "y": -49,
+      "y": 43,
       "ores": {
-        "Gold": 3,
-        "Redstone": 5,
-        "Iron": 2
+        "Copper": 21,
+        "Iron": 4
       },
-      "value": 26
+      "value": 29
     }
   },
   "history": [
+    {
+      "date": "2026-10-16",
+      "trip": {
+        "dim": "overworld",
+        "y": 43,
+        "ores": {
+          "Copper": 21,
+          "Iron": 4
+        },
+        "value": 29
+      }
+    },
     {
       "date": "2026-10-15",
       "trip": {
