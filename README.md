@@ -68,16 +68,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Remainder of negatives**
+**🐍 Python · 0.1 + 0.2**
 
-% in Java keeps the sign of the dividend. For a "math" remainder use Math.floorMod.
+Floats are stored in binary and aren't exact. Use math.isclose to compare them and decimal for money.
 
-```java
-System.out.println(-7 % 3);              // -1
-System.out.println(Math.floorMod(-7, 3)); // 2
+```python
+import math
+print(0.1 + 0.2 == 0.3)              # False
+print(math.isclose(0.1 + 0.2, 0.3))  # True
 ```
 
-<sub>Oct 15, 2026 · 2 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 16, 2026 · 3 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
