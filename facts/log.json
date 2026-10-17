@@ -1,14 +1,15 @@
 {
-  "date": "2026-10-16",
-  "lang": "python",
-  "index": 25,
+  "date": "2026-10-17",
+  "lang": "java",
+  "index": 18,
   "shown": {
     "python": [
       28,
       25
     ],
     "java": [
-      15
+      15,
+      18
     ]
   }
 }

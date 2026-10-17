@@ -68,17 +68,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · 0.1 + 0.2**
+**☕ Java · BigDecimal for exact numbers**
 
-Floats are stored in binary and aren't exact. Use math.isclose to compare them and decimal for money.
+double isn't exact: 0.1 + 0.2 gives 0.30000000000000004. Money is handled with BigDecimal.
 
-```python
-import math
-print(0.1 + 0.2 == 0.3)              # False
-print(math.isclose(0.1 + 0.2, 0.3))  # True
+```java
+var a = new BigDecimal("0.1");
+var b = new BigDecimal("0.2");
+System.out.println(a.add(b)); // 0.3
 ```
 
-<sub>Oct 16, 2026 · 3 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 17, 2026 · 4 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
