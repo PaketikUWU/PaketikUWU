@@ -68,17 +68,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · BigDecimal for exact numbers**
+**🐍 Python · The walrus operator :=**
 
-double isn't exact: 0.1 + 0.2 gives 0.30000000000000004. Money is handled with BigDecimal.
+Since Python 3.8 you can assign a value right inside an expression — handy in while and if.
 
-```java
-var a = new BigDecimal("0.1");
-var b = new BigDecimal("0.2");
-System.out.println(a.add(b)); // 0.3
+```python
+while (line := input()) != "exit":
+    print(line)
 ```
 
-<sub>Oct 17, 2026 · 4 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 18, 2026 · 5 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">

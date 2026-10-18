@@ -1,11 +1,12 @@
 {
-  "date": "2026-10-17",
-  "lang": "java",
-  "index": 18,
+  "date": "2026-10-18",
+  "lang": "python",
+  "index": 0,
   "shown": {
     "python": [
       28,
-      25
+      25,
+      0
     ],
     "java": [
       15,
