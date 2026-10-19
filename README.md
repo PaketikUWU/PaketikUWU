@@ -68,16 +68,19 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · The walrus operator :=**
+**☕ Java · Records**
 
-Since Python 3.8 you can assign a value right inside an expression — handy in while and if.
+A record (Java 16+) is a data class in one line: constructor, getters, equals, hashCode and toString are generated.
 
-```python
-while (line := input()) != "exit":
-    print(line)
+```java
+record Point(int x, int y) {}
+
+var p = new Point(3, 4);
+System.out.println(p.x()); // 3
+System.out.println(p);     // Point[x=3, y=4]
 ```
 
-<sub>Oct 18, 2026 · 5 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 19, 2026 · 6 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
