@@ -68,19 +68,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Records**
+**🐍 Python · Underscores in numbers**
 
-A record (Java 16+) is a data class in one line: constructor, getters, equals, hashCode and toString are generated.
+Long numbers can be split with underscores — the value doesn't change.
 
-```java
-record Point(int x, int y) {}
-
-var p = new Point(3, 4);
-System.out.println(p.x()); // 3
-System.out.println(p);     // Point[x=3, y=4]
+```python
+price = 1_000_000
+mask = 0b1111_0000
+print(price + 1)  # 1000001
 ```
 
-<sub>Oct 19, 2026 · 6 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 20, 2026 · 7 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
