@@ -68,17 +68,15 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Underscores in numbers**
+**☕ Java · Running a single file**
 
-Long numbers can be split with underscores — the value doesn't change.
+Since Java 11 you can run a .java file without compiling it with javac first.
 
-```python
-price = 1_000_000
-mask = 0b1111_0000
-print(price + 1)  # 1000001
+```java
+$ java Hello.java
 ```
 
-<sub>Oct 20, 2026 · 7 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 21, 2026 · 8 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
