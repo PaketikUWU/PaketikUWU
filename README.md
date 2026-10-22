@@ -68,15 +68,20 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Running a single file**
+**🐍 Python · Trap: mutable default argument**
 
-Since Java 11 you can run a .java file without compiling it with javac first.
+A default value is created once, when the function is defined, not on every call.
 
-```java
-$ java Hello.java
+```python
+def add(item, bag=[]):
+    bag.append(item)
+    return bag
+
+add(1); print(add(2))  # [1, 2] — surprise!
+# fix: bag=None, then bag = bag or []
 ```
 
-<sub>Oct 21, 2026 · 8 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 22, 2026 · 9 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
