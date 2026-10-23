@@ -13,7 +13,6 @@
 - 🐍 Python's my main thing
 - ☕ Picking up Java right now
 - ⛏️ Learning to make Minecraft mods & plugins
-- 🤖 Made a couple of Twitch / FACEIT bots
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
