@@ -68,20 +68,20 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Trap: mutable default argument**
+**☕ Java · Text blocks**
 
-A default value is created once, when the function is defined, not on every call.
+Since Java 15 multi-line text goes in triple quotes — no \n and no concatenation.
 
-```python
-def add(item, bag=[]):
-    bag.append(item)
-    return bag
-
-add(1); print(add(2))  # [1, 2] — surprise!
-# fix: bag=None, then bag = bag or []
+```java
+String json = """
+    {
+      "id": "finsfish",
+      "version": "1.0"
+    }
+    """;
 ```
 
-<sub>Oct 22, 2026 · 9 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 23, 2026 · 10 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
