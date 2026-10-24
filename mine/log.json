@@ -1,11 +1,12 @@
 {
-  "trips": 10,
+  "trips": 11,
   "accidents": 2,
   "inventory": {
     "Gold": 15,
     "Redstone": 14,
-    "Iron": 40,
-    "Copper": 57
+    "Iron": 42,
+    "Copper": 57,
+    "Lapis": 8
   },
   "record": {
     "date": "2026-10-18",
@@ -20,6 +21,18 @@
     }
   },
   "history": [
+    {
+      "date": "2026-10-24",
+      "trip": {
+        "dim": "overworld",
+        "y": 38,
+        "ores": {
+          "Iron": 2,
+          "Lapis": 8
+        },
+        "value": 20
+      }
+    },
     {
       "date": "2026-10-23",
       "trip": {
@@ -84,18 +97,6 @@
           "Redstone": 9
         },
         "value": 40
-      }
-    },
-    {
-      "date": "2026-10-17",
-      "trip": {
-        "dim": "overworld",
-        "y": -32,
-        "ores": {
-          "Gold": 4,
-          "Iron": 2
-        },
-        "value": 20
       }
     }
   ]
