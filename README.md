@@ -67,20 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Text blocks**
+**🐍 Python · Merging dicts with |**
 
-Since Java 15 multi-line text goes in triple quotes — no \n and no concatenation.
+Since Python 3.9 dicts can be merged with the | operator, and |= updates in place.
 
-```java
-String json = """
-    {
-      "id": "finsfish",
-      "version": "1.0"
-    }
-    """;
+```python
+base = {"hp": 20, "speed": 1}
+boost = {"speed": 2}
+print(base | boost)  # {'hp': 20, 'speed': 2}
 ```
 
-<sub>Oct 23, 2026 · 10 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 24, 2026 · 11 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
