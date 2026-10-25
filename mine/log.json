@@ -1,6 +1,6 @@
 {
-  "trips": 11,
-  "accidents": 2,
+  "trips": 12,
+  "accidents": 3,
   "inventory": {
     "Gold": 15,
     "Redstone": 14,
@@ -21,6 +21,12 @@
     }
   },
   "history": [
+    {
+      "date": "2026-10-25",
+      "trip": {
+        "accident": "💥 A creeper sneaked up from behind, trip ruined!"
+      }
+    },
     {
       "date": "2026-10-24",
       "trip": {
@@ -85,18 +91,6 @@
           "Iron": 2
         },
         "value": 22
-      }
-    },
-    {
-      "date": "2026-10-18",
-      "trip": {
-        "dim": "overworld",
-        "y": 9,
-        "ores": {
-          "Iron": 11,
-          "Redstone": 9
-        },
-        "value": 40
       }
     }
   ]
