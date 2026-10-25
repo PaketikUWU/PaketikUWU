@@ -67,17 +67,20 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Merging dicts with |**
+**☕ Java · Labeled break**
 
-Since Python 3.9 dicts can be merged with the | operator, and |= updates in place.
+break with a label exits several nested loops at once.
 
-```python
-base = {"hp": 20, "speed": 1}
-boost = {"speed": 2}
-print(base | boost)  # {'hp': 20, 'speed': 2}
+```java
+search:
+for (int x = 0; x < 16; x++) {
+    for (int z = 0; z < 16; z++) {
+        if (isDiamond(x, z)) break search;
+    }
+}
 ```
 
-<sub>Oct 24, 2026 · 11 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 25, 2026 · 12 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
