@@ -1,6 +1,6 @@
 {
-  "trips": 12,
-  "accidents": 3,
+  "trips": 13,
+  "accidents": 4,
   "inventory": {
     "Gold": 15,
     "Redstone": 14,
@@ -21,6 +21,12 @@
     }
   },
   "history": [
+    {
+      "date": "2026-10-26",
+      "trip": {
+        "accident": "🔥 Fell into lava, all the loot burned!"
+      }
+    },
     {
       "date": "2026-10-25",
       "trip": {
@@ -79,18 +85,6 @@
           "Iron": 7
         },
         "value": 30
-      }
-    },
-    {
-      "date": "2026-10-19",
-      "trip": {
-        "dim": "overworld",
-        "y": 38,
-        "ores": {
-          "Copper": 18,
-          "Iron": 2
-        },
-        "value": 22
       }
     }
   ]
