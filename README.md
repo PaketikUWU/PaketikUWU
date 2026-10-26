@@ -67,20 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Labeled break**
+**🐍 Python · enumerate with start**
 
-break with a label exits several nested loops at once.
+enumerate can start counting from any number, not just zero.
 
-```java
-search:
-for (int x = 0; x < 16; x++) {
-    for (int z = 0; z < 16; z++) {
-        if (isDiamond(x, z)) break search;
-    }
-}
+```python
+for i, name in enumerate(["Python", "Java"], start=1):
+    print(i, name)
 ```
 
-<sub>Oct 25, 2026 · 12 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 26, 2026 · 13 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
