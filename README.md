@@ -67,16 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · enumerate with start**
+**☕ Java · Effectively final**
 
-enumerate can start counting from any number, not just zero.
+A lambda can use a local variable only if it never changes after assignment.
 
-```python
-for i, name in enumerate(["Python", "Java"], start=1):
-    print(i, name)
+```java
+int bonus = 5;
+list.forEach(x -> System.out.println(x + bonus)); // ok
+// bonus++; — and the code above stops compiling
 ```
 
-<sub>Oct 26, 2026 · 13 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 27, 2026 · 14 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
