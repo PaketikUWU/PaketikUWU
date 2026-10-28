@@ -67,17 +67,21 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Effectively final**
+**🐍 Python · match / case**
 
-A lambda can use a local variable only if it never changes after assignment.
+Python 3.10 added structural pattern matching — it can take data apart, not just compare values.
 
-```java
-int bonus = 5;
-list.forEach(x -> System.out.println(x + bonus)); // ok
-// bonus++; — and the code above stops compiling
+```python
+match command.split():
+    case ["go", direction]:
+        print("going", direction)
+    case ["quit"]:
+        print("bye!")
+    case _:
+        print("unknown command")
 ```
 
-<sub>Oct 27, 2026 · 14 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 28, 2026 · 15 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
