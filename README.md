@@ -67,21 +67,19 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · match / case**
+**☕ Java · Mixin in modding**
 
-Python 3.10 added structural pattern matching — it can take data apart, not just compare values.
+Fabric uses the Mixin library: it injects your code straight into Minecraft classes while the game loads, without touching the sources.
 
-```python
-match command.split():
-    case ["go", direction]:
-        print("going", direction)
-    case ["quit"]:
-        print("bye!")
-    case _:
-        print("unknown command")
+```java
+@Mixin(Player.class)
+public class PlayerMixin {
+    @Inject(method = "tick", at = @At("HEAD"))
+    private void onTick(CallbackInfo ci) { /* ... */ }
+}
 ```
 
-<sub>Oct 28, 2026 · 15 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 29, 2026 · 16 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
