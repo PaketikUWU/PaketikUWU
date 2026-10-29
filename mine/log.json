@@ -1,11 +1,11 @@
 {
-  "trips": 15,
+  "trips": 16,
   "accidents": 4,
   "inventory": {
     "Gold": 15,
     "Redstone": 14,
-    "Iron": 54,
-    "Copper": 67,
+    "Iron": 62,
+    "Copper": 75,
     "Lapis": 8,
     "Ancient Debris": 3
   },
@@ -21,6 +21,18 @@
     }
   },
   "history": [
+    {
+      "date": "2026-10-29",
+      "trip": {
+        "dim": "overworld",
+        "y": 35,
+        "ores": {
+          "Iron": 8,
+          "Copper": 8
+        },
+        "value": 24
+      }
+    },
     {
       "date": "2026-10-28",
       "trip": {
@@ -78,12 +90,6 @@
           "Iron": 4
         },
         "value": 26
-      }
-    },
-    {
-      "date": "2026-10-22",
-      "trip": {
-        "accident": "💥 A creeper sneaked up from behind, trip ruined!"
       }
     }
   ]
