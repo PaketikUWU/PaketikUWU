@@ -67,19 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Mixin in modding**
+**🐍 Python · Swap without a temp variable**
 
-Fabric uses the Mixin library: it injects your code straight into Minecraft classes while the game loads, without touching the sources.
+Tuples let you swap values in one line.
 
-```java
-@Mixin(Player.class)
-public class PlayerMixin {
-    @Inject(method = "tick", at = @At("HEAD"))
-    private void onTick(CallbackInfo ci) { /* ... */ }
-}
+```python
+a, b = 1, 2
+a, b = b, a
+print(a, b)  # 2 1
 ```
 
-<sub>Oct 29, 2026 · 16 of 60 shown · tomorrow: Python</sub>
+<sub>Oct 30, 2026 · 17 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
