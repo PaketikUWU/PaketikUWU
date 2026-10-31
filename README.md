@@ -67,17 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Swap without a temp variable**
+**☕ Java · var**
 
-Tuples let you swap values in one line.
+Since Java 10 you can skip the type of a local variable — the compiler infers it. The type is still static.
 
-```python
-a, b = 1, 2
-a, b = b, a
-print(a, b)  # 2 1
+```java
+var players = new ArrayList<String>();
+var count = 10; // int
 ```
 
-<sub>Oct 30, 2026 · 17 of 60 shown · tomorrow: Java</sub>
+<sub>Oct 31, 2026 · 18 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
