@@ -67,16 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · var**
+**🐍 Python · removeprefix / removesuffix**
 
-Since Java 10 you can skip the type of a local variable — the compiler infers it. The type is still static.
+Since Python 3.9 strings can drop a prefix or suffix (unlike strip, which removes characters).
 
-```java
-var players = new ArrayList<String>();
-var count = 10; // int
+```python
+print("minecraft:stone".removeprefix("minecraft:"))  # stone
+print("photo.png".removesuffix(".png"))            # photo
 ```
 
-<sub>Oct 31, 2026 · 18 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 01, 2026 · 19 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
