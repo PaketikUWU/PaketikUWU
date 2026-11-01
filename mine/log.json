@@ -1,6 +1,6 @@
 {
-  "trips": 18,
-  "accidents": 5,
+  "trips": 19,
+  "accidents": 6,
   "inventory": {
     "Gold": 15,
     "Redstone": 14,
@@ -21,6 +21,12 @@
     }
   },
   "history": [
+    {
+      "date": "2026-11-01",
+      "trip": {
+        "accident": "💥 A creeper sneaked up from behind, trip ruined!"
+      }
+    },
     {
       "date": "2026-10-31",
       "trip": {
@@ -78,12 +84,6 @@
       "date": "2026-10-26",
       "trip": {
         "accident": "🔥 Fell into lava, all the loot burned!"
-      }
-    },
-    {
-      "date": "2026-10-25",
-      "trip": {
-        "accident": "💥 A creeper sneaked up from behind, trip ruined!"
       }
     }
   ]
