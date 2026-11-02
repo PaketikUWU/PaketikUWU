@@ -67,16 +67,18 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · removeprefix / removesuffix**
+**☕ Java · switch expressions**
 
-Since Python 3.9 strings can drop a prefix or suffix (unlike strip, which removes characters).
+Since Java 14 a switch can return a value, and the -> arrow never falls through to the next case.
 
-```python
-print("minecraft:stone".removeprefix("minecraft:"))  # stone
-print("photo.png".removesuffix(".png"))            # photo
+```java
+String type = switch (day) {
+    case SATURDAY, SUNDAY -> "weekend";
+    default -> "workday";
+};
 ```
 
-<sub>Nov 01, 2026 · 19 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 02, 2026 · 20 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
