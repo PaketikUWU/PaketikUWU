@@ -92,25 +92,25 @@ Every day a bot goes mining at a random depth. Deeper means diamonds, higher mea
 and every now and then a creeper ruins the trip.
 
 <!--MINE:START-->
-> ⛏️ **Trip of Nov 02, 2026:** ⛰️ Overworld, Y=-50: 🔴 Redstone ×7, 🟡 Gold ×5, 💎 Diamond ×3, ⚪ Iron ×2 · value **68**
+> ⛏️ **Trip of Nov 03, 2026:** ⛰️ Overworld, Y=25: 🟠 Copper ×12, ⚪ Iron ×11 · value **34**
 >
 > 🏆 **Record:** 🔥 Nether, Y=10: 🟤 Ancient Debris ×3 · value **75** (Oct 27, 2026)
 >
-> 🎒 **Inventory:** 🟠 82 · ⚪ 67 · 🔴 21 · 🟡 20 · 🔵 8 · 🟤 3 · 💎 3
+> 🎒 **Inventory:** 🟠 94 · ⚪ 78 · 🔴 21 · 🟡 20 · 🔵 8 · 🟤 3 · 💎 3
 >
-> 🗺️ Trips: **20** · ☠️ Failures: **6**
+> 🗺️ Trips: **21** · ☠️ Failures: **6**
 
 <details><summary>Miner's log</summary>
 
 | Date | Trip |
 |---|---|
+| Nov 03, 2026 | ⛰️ Overworld, Y=25: 🟠 Copper ×12, ⚪ Iron ×11 · value **34** |
 | Nov 02, 2026 | ⛰️ Overworld, Y=-50: 🔴 Redstone ×7, 🟡 Gold ×5, 💎 Diamond ×3, ⚪ Iron ×2 · value **68** |
 | Nov 01, 2026 | 💥 A creeper sneaked up from behind, trip ruined! |
 | Oct 31, 2026 | ⛰️ Overworld, Y=36: 🟠 Copper ×7, ⚪ Iron ×3 · value **13** |
 | Oct 30, 2026 | 💥 A creeper sneaked up from behind, trip ruined! |
 | Oct 29, 2026 | ⛰️ Overworld, Y=35: ⚪ Iron ×8, 🟠 Copper ×8 · value **24** |
 | Oct 28, 2026 | ⛰️ Overworld, Y=13: ⚪ Iron ×12, 🟠 Copper ×10 · value **34** |
-| Oct 27, 2026 | 🔥 Nether, Y=10: 🟤 Ancient Debris ×3 · value **75** |
 
 </details>
 <!--MINE:END-->
