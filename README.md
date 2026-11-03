@@ -67,18 +67,21 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · switch expressions**
+**🐍 Python · Caching in one line**
 
-Since Java 14 a switch can return a value, and the -> arrow never falls through to the next case.
+The @cache decorator (Python 3.9+) remembers function results — recursion becomes instant.
 
-```java
-String type = switch (day) {
-    case SATURDAY, SUNDAY -> "weekend";
-    default -> "workday";
-};
+```python
+from functools import cache
+
+@cache
+def fib(n):
+    return n if n < 2 else fib(n - 1) + fib(n - 2)
+
+print(fib(200))
 ```
 
-<sub>Nov 02, 2026 · 20 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 03, 2026 · 21 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
