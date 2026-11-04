@@ -1,5 +1,5 @@
 {
-  "trips": 21,
+  "trips": 22,
   "accidents": 6,
   "inventory": {
     "Gold": 20,
@@ -8,7 +8,8 @@
     "Copper": 94,
     "Lapis": 8,
     "Ancient Debris": 3,
-    "Diamond": 3
+    "Diamond": 3,
+    "Coal": 39
   },
   "record": {
     "date": "2026-10-27",
@@ -22,6 +23,17 @@
     }
   },
   "history": [
+    {
+      "date": "2026-11-04",
+      "trip": {
+        "dim": "overworld",
+        "y": 100,
+        "ores": {
+          "Coal": 39
+        },
+        "value": 39
+      }
+    },
     {
       "date": "2026-11-03",
       "trip": {
@@ -82,18 +94,6 @@
           "Copper": 8
         },
         "value": 24
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "trip": {
-        "dim": "overworld",
-        "y": 13,
-        "ores": {
-          "Iron": 12,
-          "Copper": 10
-        },
-        "value": 34
       }
     }
   ]
