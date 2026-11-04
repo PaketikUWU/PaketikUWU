@@ -67,21 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Caching in one line**
+**☕ Java · Optional**
 
-The @cache decorator (Python 3.9+) remembers function results — recursion becomes instant.
+Optional says clearly "there may be no value" and helps avoid NullPointerException.
 
-```python
-from functools import cache
-
-@cache
-def fib(n):
-    return n if n < 2 else fib(n - 1) + fib(n - 2)
-
-print(fib(200))
+```java
+Optional<String> name = Optional.ofNullable(player);
+System.out.println(name.orElse("Steve"));
 ```
 
-<sub>Nov 03, 2026 · 21 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 04, 2026 · 22 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
