@@ -67,16 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Optional**
+**🐍 Python · any and all**
 
-Optional says clearly "there may be no value" and helps avoid NullPointerException.
+any() and all() work with generators and stop as soon as the answer is known.
 
-```java
-Optional<String> name = Optional.ofNullable(player);
-System.out.println(name.orElse("Steve"));
+```python
+nums = [2, 4, 7, 8]
+print(any(n % 2 for n in nums))  # True
+print(all(n > 0 for n in nums))  # True
 ```
 
-<sub>Nov 04, 2026 · 22 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 05, 2026 · 23 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
