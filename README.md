@@ -67,17 +67,19 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · any and all**
+**☕ Java · Enums with fields**
 
-any() and all() work with generators and stop as soon as the answer is known.
+A Java enum is a full class: its values can have fields, constructors and methods.
 
-```python
-nums = [2, 4, 7, 8]
-print(any(n % 2 for n in nums))  # True
-print(all(n > 0 for n in nums))  # True
+```java
+enum Tier {
+    WOOD(59), IRON(250), DIAMOND(1561);
+    final int durability;
+    Tier(int d) { durability = d; }
+}
 ```
 
-<sub>Nov 05, 2026 · 23 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 06, 2026 · 24 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
