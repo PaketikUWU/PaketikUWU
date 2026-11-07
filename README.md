@@ -67,19 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Enums with fields**
+**🐍 Python · print with sep and end**
 
-A Java enum is a full class: its values can have fields, constructors and methods.
+print can insert separators and change the line ending for you.
 
-```java
-enum Tier {
-    WOOD(59), IRON(250), DIAMOND(1561);
-    final int durability;
-    Tier(int d) { durability = d; }
-}
+```python
+print(*["Python", "Java", "Minecraft"], sep=" · ")
+print("loading", end="...\n")
 ```
 
-<sub>Nov 06, 2026 · 24 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 07, 2026 · 25 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
