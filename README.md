@@ -67,16 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · print with sep and end**
+**☕ Java · Sealed classes**
 
-print can insert separators and change the line ending for you.
+sealed (Java 17) limits which classes are allowed to extend a type.
 
-```python
-print(*["Python", "Java", "Minecraft"], sep=" · ")
-print("loading", end="...\n")
+```java
+sealed interface Shape permits Circle, Square {}
+record Circle(double r) implements Shape {}
+record Square(double side) implements Shape {}
 ```
 
-<sub>Nov 07, 2026 · 25 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 08, 2026 · 26 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
