@@ -67,17 +67,15 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Sealed classes**
+**🐍 Python · Banker's rounding**
 
-sealed (Java 17) limits which classes are allowed to extend a type.
+round() rounds halves to the nearest even number.
 
-```java
-sealed interface Shape permits Circle, Square {}
-record Circle(double r) implements Shape {}
-record Square(double side) implements Shape {}
+```python
+print(round(0.5), round(1.5), round(2.5))  # 0 2 2
 ```
 
-<sub>Nov 08, 2026 · 26 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 09, 2026 · 27 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
