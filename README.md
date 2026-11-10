@@ -67,15 +67,18 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Banker's rounding**
+**☕ Java · Stream API**
 
-round() rounds halves to the nearest even number.
+Streams let you filter and transform collections with a chain of calls. toList() exists since Java 16.
 
-```python
-print(round(0.5), round(1.5), round(2.5))  # 0 2 2
+```java
+List<String> loud = names.stream()
+    .filter(n -> n.length() > 3)
+    .map(String::toUpperCase)
+    .toList();
 ```
 
-<sub>Nov 09, 2026 · 27 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 10, 2026 · 28 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
