@@ -1,15 +1,15 @@
 {
-  "trips": 27,
+  "trips": 28,
   "accidents": 8,
   "inventory": {
     "Gold": 20,
     "Redstone": 21,
     "Iron": 78,
-    "Copper": 119,
+    "Copper": 134,
     "Lapis": 16,
     "Ancient Debris": 3,
     "Diamond": 3,
-    "Coal": 55,
+    "Coal": 58,
     "Quartz": 22,
     "Nether Gold": 6
   },
@@ -25,6 +25,18 @@
     }
   },
   "history": [
+    {
+      "date": "2026-11-10",
+      "trip": {
+        "dim": "overworld",
+        "y": 99,
+        "ores": {
+          "Copper": 15,
+          "Coal": 3
+        },
+        "value": 18
+      }
+    },
     {
       "date": "2026-11-09",
       "trip": {
@@ -83,18 +95,6 @@
           "Coal": 39
         },
         "value": 39
-      }
-    },
-    {
-      "date": "2026-11-03",
-      "trip": {
-        "dim": "overworld",
-        "y": 25,
-        "ores": {
-          "Iron": 11,
-          "Copper": 12
-        },
-        "value": 34
       }
     }
   ]
