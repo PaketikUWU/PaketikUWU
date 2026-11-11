@@ -67,18 +67,18 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Stream API**
+**🐍 Python · __slots__**
 
-Streams let you filter and transform collections with a chain of calls. toList() exists since Java 16.
+__slots__ stops an object from having an attribute dict — objects get lighter when you have lots of them.
 
-```java
-List<String> loud = names.stream()
-    .filter(n -> n.length() > 3)
-    .map(String::toUpperCase)
-    .toList();
+```python
+class Block:
+    __slots__ = ("x", "y", "z")
+    def __init__(self, x, y, z):
+        self.x, self.y, self.z = x, y, z
 ```
 
-<sub>Nov 10, 2026 · 28 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 11, 2026 · 29 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
