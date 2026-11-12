@@ -67,18 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · __slots__**
+**☕ Java · char is a number**
 
-__slots__ stops an object from having an attribute dict — objects get lighter when you have lots of them.
+In arithmetic a char turns into an int.
 
-```python
-class Block:
-    __slots__ = ("x", "y", "z")
-    def __init__(self, x, y, z):
-        self.x, self.y, self.z = x, y, z
+```java
+System.out.println('a' + 1);        // 98
+System.out.println((char) ('a' + 1)); // b
 ```
 
-<sub>Nov 11, 2026 · 29 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 12, 2026 · 30 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
