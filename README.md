@@ -67,16 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · char is a number**
+**🐍 Python · pathlib and /**
 
-In arithmetic a char turns into an int.
+In pathlib, paths are joined with the / operator — no manual slashes or os.path.join.
 
-```java
-System.out.println('a' + 1);        // 98
-System.out.println((char) ('a' + 1)); // b
+```python
+from pathlib import Path
+p = Path("mods") / "finsfish" / "config.json"
+print(p.suffix)  # .json
 ```
 
-<sub>Nov 12, 2026 · 30 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 13, 2026 · 31 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
