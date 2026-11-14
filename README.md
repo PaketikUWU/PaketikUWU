@@ -67,17 +67,18 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · pathlib and /**
+**☕ Java · == vs equals for strings**
 
-In pathlib, paths are joined with the / operator — no manual slashes or os.path.join.
+== compares references, not text. Always use equals for strings.
 
-```python
-from pathlib import Path
-p = Path("mods") / "finsfish" / "config.json"
-print(p.suffix)  # .json
+```java
+String a = "hi";
+String b = new String("hi");
+System.out.println(a == b);      // false
+System.out.println(a.equals(b)); // true
 ```
 
-<sub>Nov 13, 2026 · 31 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 14, 2026 · 32 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
