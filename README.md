@@ -67,18 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · == vs equals for strings**
+**🐍 Python · Dicts keep order**
 
-== compares references, not text. Always use equals for strings.
+Since Python 3.7 the insertion order of dict keys is guaranteed by the language.
 
-```java
-String a = "hi";
-String b = new String("hi");
-System.out.println(a == b);      // false
-System.out.println(a.equals(b)); // true
+```python
+d = {"b": 1, "a": 2}
+d["c"] = 3
+print(list(d))  # ['b', 'a', 'c']
 ```
 
-<sub>Nov 14, 2026 · 32 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 15, 2026 · 33 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
