@@ -1,5 +1,5 @@
 {
-  "trips": 32,
+  "trips": 33,
   "accidents": 9,
   "inventory": {
     "Gold": 25,
@@ -10,8 +10,8 @@
     "Ancient Debris": 3,
     "Diamond": 3,
     "Coal": 82,
-    "Quartz": 39,
-    "Nether Gold": 16
+    "Quartz": 68,
+    "Nether Gold": 21
   },
   "record": {
     "date": "2026-10-27",
@@ -25,6 +25,18 @@
     }
   },
   "history": [
+    {
+      "date": "2026-11-15",
+      "trip": {
+        "dim": "nether",
+        "y": 26,
+        "ores": {
+          "Nether Gold": 5,
+          "Quartz": 29
+        },
+        "value": 39
+      }
+    },
     {
       "date": "2026-11-14",
       "trip": {
@@ -84,18 +96,6 @@
       "date": "2026-11-09",
       "trip": {
         "accident": "💥 A creeper sneaked up from behind, trip ruined!"
-      }
-    },
-    {
-      "date": "2026-11-08",
-      "trip": {
-        "dim": "nether",
-        "y": 14,
-        "ores": {
-          "Quartz": 22,
-          "Nether Gold": 6
-        },
-        "value": 34
       }
     }
   ]
