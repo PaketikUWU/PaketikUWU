@@ -67,17 +67,15 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Dicts keep order**
+**☕ Java · The diamond operator**
 
-Since Python 3.7 the insertion order of dict keys is guaranteed by the language.
+Since Java 7 you don't have to repeat the generic type on the right — the compiler infers it.
 
-```python
-d = {"b": 1, "a": 2}
-d["c"] = 3
-print(list(d))  # ['b', 'a', 'c']
+```java
+Map<String, List<Integer>> scores = new HashMap<>();
 ```
 
-<sub>Nov 15, 2026 · 33 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 16, 2026 · 34 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
