@@ -67,15 +67,22 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · The diamond operator**
+**🐍 Python · @dataclass**
 
-Since Java 7 you don't have to repeat the generic type on the right — the compiler infers it.
+A dataclass writes __init__, __repr__ and __eq__ for you.
 
-```java
-Map<String, List<Integer>> scores = new HashMap<>();
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Item:
+    name: str
+    count: int = 1
+
+print(Item("diamond", 3))  # Item(name='diamond', count=3)
 ```
 
-<sub>Nov 16, 2026 · 34 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 17, 2026 · 35 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
