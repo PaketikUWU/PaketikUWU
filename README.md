@@ -67,22 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · @dataclass**
+**☕ Java · jshell**
 
-A dataclass writes __init__, __repr__ and __eq__ for you.
+Since Java 9 there's jshell — a console to try code without a class or main.
 
-```python
-from dataclasses import dataclass
-
-@dataclass
-class Item:
-    name: str
-    count: int = 1
-
-print(Item("diamond", 3))  # Item(name='diamond', count=3)
+```java
+$ jshell
+jshell> 2 + 2
+$1 ==> 4
 ```
 
-<sub>Nov 17, 2026 · 35 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 18, 2026 · 36 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
