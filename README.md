@@ -67,17 +67,17 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · jshell**
+**🐍 Python · breakpoint()**
 
-Since Java 9 there's jshell — a console to try code without a class or main.
+The built-in breakpoint() (3.7+) pauses the program and opens the pdb debugger.
 
-```java
-$ jshell
-jshell> 2 + 2
-$1 ==> 4
+```python
+def damage(hp, hit):
+    breakpoint()  # inspect variables here
+    return hp - hit
 ```
 
-<sub>Nov 18, 2026 · 36 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 19, 2026 · 37 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
