@@ -67,17 +67,18 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · breakpoint()**
+**☕ Java · Patterns in switch**
 
-The built-in breakpoint() (3.7+) pauses the program and opens the pdb debugger.
+Since Java 21 switch can match on types and even take records apart.
 
-```python
-def damage(hp, hit):
-    breakpoint()  # inspect variables here
-    return hp - hit
+```java
+double area = switch (shape) {
+    case Circle(double r) -> Math.PI * r * r;
+    case Square(double s) -> s * s;
+};
 ```
 
-<sub>Nov 19, 2026 · 37 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 20, 2026 · 38 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
