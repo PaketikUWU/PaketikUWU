@@ -67,18 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Patterns in switch**
+**🐍 Python · Unlimited integers**
 
-Since Java 21 switch can match on types and even take records apart.
+Python's int never overflows: a number keeps growing as long as there is memory.
 
-```java
-double area = switch (shape) {
-    case Circle(double r) -> Math.PI * r * r;
-    case Square(double s) -> s * s;
-};
+```python
+print(2 ** 200)
+# 1606938044258990275541962092341162602522202993782792835301376
 ```
 
-<sub>Nov 20, 2026 · 38 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 21, 2026 · 39 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
