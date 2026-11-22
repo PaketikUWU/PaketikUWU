@@ -67,16 +67,18 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Unlimited integers**
+**☕ Java · Handy Map methods**
 
-Python's int never overflows: a number keeps growing as long as there is memory.
+Map has getOrDefault, merge and computeIfAbsent — fewer null checks.
 
-```python
-print(2 ** 200)
-# 1606938044258990275541962092341162602522202993782792835301376
+```java
+Map<String, Integer> inv = new HashMap<>();
+inv.merge("coal", 5, Integer::sum);
+inv.merge("coal", 3, Integer::sum);
+System.out.println(inv.get("coal")); // 8
 ```
 
-<sub>Nov 21, 2026 · 39 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 22, 2026 · 40 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
