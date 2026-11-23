@@ -67,18 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Handy Map methods**
+**🐍 Python · zip(strict=True)**
 
-Map has getOrDefault, merge and computeIfAbsent — fewer null checks.
+Plain zip silently cuts off the longer list. With strict=True (3.10+) it raises an error if the lengths differ.
 
-```java
-Map<String, Integer> inv = new HashMap<>();
-inv.merge("coal", 5, Integer::sum);
-inv.merge("coal", 3, Integer::sum);
-System.out.println(inv.get("coal")); // 8
+```python
+list(zip([1, 2, 3], "ab", strict=True))
+# ValueError: zip() argument 2 is shorter than argument 1
 ```
 
-<sub>Nov 22, 2026 · 40 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 23, 2026 · 41 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
