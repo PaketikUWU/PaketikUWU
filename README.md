@@ -67,16 +67,20 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · zip(strict=True)**
+**☕ Java · Virtual threads**
 
-Plain zip silently cuts off the longer list. With strict=True (3.10+) it raises an error if the lengths differ.
+Java 21 can run millions of lightweight virtual threads — much cheaper than regular ones.
 
-```python
-list(zip([1, 2, 3], "ab", strict=True))
-# ValueError: zip() argument 2 is shorter than argument 1
+```java
+try (var ex = Executors.newVirtualThreadPerTaskExecutor()) {
+    IntStream.range(0, 100_000).forEach(i -> ex.submit(() -> {
+        Thread.sleep(1000);
+        return i;
+    }));
+}
 ```
 
-<sub>Nov 23, 2026 · 41 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 24, 2026 · 42 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
