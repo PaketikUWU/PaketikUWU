@@ -67,20 +67,15 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Virtual threads**
+**🐍 Python · The Zen of Python**
 
-Java 21 can run millions of lightweight virtual threads — much cheaper than regular ones.
+Run import this and Python prints its guiding principles, like "Simple is better than complex".
 
-```java
-try (var ex = Executors.newVirtualThreadPerTaskExecutor()) {
-    IntStream.range(0, 100_000).forEach(i -> ex.submit(() -> {
-        Thread.sleep(1000);
-        return i;
-    }));
-}
+```python
+import this
 ```
 
-<sub>Nov 24, 2026 · 42 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 25, 2026 · 43 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
