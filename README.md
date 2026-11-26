@@ -67,15 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · The Zen of Python**
+**☕ Java · Method references**
 
-Run import this and Python prints its guiding principles, like "Simple is better than complex".
+Instead of a lambda you can pass a method reference with ::.
 
-```python
-import this
+```java
+names.forEach(System.out::println);
+names.sort(String::compareToIgnoreCase);
 ```
 
-<sub>Nov 25, 2026 · 43 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 26, 2026 · 44 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
