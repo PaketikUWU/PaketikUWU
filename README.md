@@ -67,16 +67,16 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**☕ Java · Method references**
+**🐍 Python · Types without imports**
 
-Instead of a lambda you can pass a method reference with ::.
+Since Python 3.9 you can write list[int] and dict[str, int], and since 3.10 — int | None.
 
-```java
-names.forEach(System.out::println);
-names.sort(String::compareToIgnoreCase);
+```python
+def find(names: list[str], key: str) -> int | None:
+    return names.index(key) if key in names else None
 ```
 
-<sub>Nov 26, 2026 · 44 of 60 shown · tomorrow: Python</sub>
+<sub>Nov 27, 2026 · 45 of 60 shown · tomorrow: Java</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
