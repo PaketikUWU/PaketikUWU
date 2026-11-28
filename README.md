@@ -67,16 +67,19 @@ with a little minigame, gear up with rods, hooks and bobbers, and sell your catc
 ### 📚 Fact of the day
 
 <!--FACT:START-->
-**🐍 Python · Types without imports**
+**☕ Java · The Integer cache**
 
-Since Python 3.9 you can write list[int] and dict[str, int], and since 3.10 — int | None.
+Integer objects from -128 to 127 come from a cache, so == sometimes "works". Compare objects with equals.
 
-```python
-def find(names: list[str], key: str) -> int | None:
-    return names.index(key) if key in names else None
+```java
+Integer a = 127, b = 127;
+Integer c = 128, d = 128;
+System.out.println(a == b);      // true
+System.out.println(c == d);      // false
+System.out.println(c.equals(d)); // true
 ```
 
-<sub>Nov 27, 2026 · 45 of 60 shown · tomorrow: Java</sub>
+<sub>Nov 28, 2026 · 46 of 60 shown · tomorrow: Python</sub>
 <!--FACT:END-->
 
 <img src="./assets/divider.svg" alt="" width="100%">
